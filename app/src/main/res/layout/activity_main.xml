@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.MainActivity">
+
+    <LinearLayout
+            android:id="@+id/dicesLayout"
+            style="@style/dicesLayout"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:baselineAligned="false">
+        <LinearLayout
+                style="@style/dicesRowLayout">
+            <ImageView
+                    android:id="@+id/firstDice"
+                    style="@style/dices"
+                    android:contentDescription="@string/firstDiceDesc"/>
+            <ImageView
+                    android:id="@+id/secondDice"
+                    style="@style/dices"
+                    android:contentDescription="@string/secondDiceDesc"/>
+            <ImageView
+                    android:id="@+id/thirdDice"
+                    style="@style/dices"
+                    android:contentDescription="@string/thirdDiceDesc"/>
+        </LinearLayout>
+
+        <LinearLayout
+                style="@style/dicesRowLayout">
+            <ImageView
+                    android:id="@+id/fourthDice"
+                    style="@style/dices"
+                    android:contentDescription="@string/fourthDiceDesc"/>
+            <ImageView
+                    android:id="@+id/fifthDice"
+                    style="@style/dices"
+                    android:contentDescription="@string/fifthDiceDesc"/>
+            <ImageView
+                    android:id="@+id/sixthDice"
+                    style="@style/dices"
+                    android:contentDescription="@string/sixthDiceDesc"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/rollDiceButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/rollDiceButton"
+            app:layout_constraintTop_toBottomOf="@id/dicesLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="32dp"/>
+    <Button
+            android:id="@+id/resetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resetButtonText"
+            app:layout_constraintTop_toBottomOf="@id/rollDiceButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp"/>
+
+</android.support.constraint.ConstraintLayout>

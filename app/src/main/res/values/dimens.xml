@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dicesLayoutSize">300dp</dimen>
+    <dimen name="dicesLayoutSideMargin">12dp</dimen>
+    <dimen name="dicesLayoutBottomMargin">150dp</dimen>
+    <dimen name="dicesMargin">6dp</dimen>
+    <dimen name="dicesPadding">4dp</dimen>
+</resources>

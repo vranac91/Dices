@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Dices</string>
+    <string name="appName">Dices</string>
+    <string name="rollDiceButton">roll dice</string>
+    <string name="resetButtonText">reset</string>
+    <string name="firstDiceDesc">First dice</string>
+    <string name="secondDiceDesc">Second dice</string>
+    <string name="thirdDiceDesc">Third dice</string>
+    <string name="fourthDiceDesc">Fourth dice</string>
+    <string name="fifthDiceDesc">Fifth dice</string>
+    <string name="sixthDiceDesc">Sixth dice</string>
+</resources>
